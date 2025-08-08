@@ -20,8 +20,7 @@ export default function ConfirmModal({
   confirmText = 'Onayla',
   cancelText = 'İptal',
   onConfirm,
-  onCancel,
-  type = 'danger'
+  onCancel
 }: ConfirmModalProps) {
   // Handle escape key
   useEffect(() => {

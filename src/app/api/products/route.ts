@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getDatabase } from '@/lib/mongodb';
 import { ProductDocument, documentToProduct, productToDocument } from '@/models/Product';
-import { ObjectId } from 'mongodb';
 
 // GET - Fetch all products
 export async function GET() {
