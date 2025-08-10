@@ -92,9 +92,7 @@ export default function Home() {
             <h1 className="text-2xl font-bold text-gray-900">
               Envanter Yönetim Sistemi
             </h1>
-            <p className="text-gray-600 mt-1">
-              Ürün envanterinizi kolaylıkla yönetin
-            </p>
+           
           </div>
           <button
             onClick={() => setIsModalOpen(true)}
